@@ -12,7 +12,7 @@ class DeparseTests(RiveScriptTestCase):
 
     def test_deparse(self):
         # The original source that should match the re-written version.
-        source = """// Written by rivescript.deparse()
+        source = """// Written by converscript.deparse()
             ! version = 2.0
 
             ! var age = 5

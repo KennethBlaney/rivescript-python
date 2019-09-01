@@ -2,7 +2,7 @@
 
 # Example for how to set a Perl object handler.
 
-import rivescript
+import converscript
 from json import dumps, loads
 from subprocess import Popen, PIPE
 
@@ -59,7 +59,7 @@ class PerlObject:
 
         return result['reply']
 
-bot = rivescript.RiveScript()
+bot = converscript.RiveScript()
 bot.set_handler("perl", PerlObject())
 bot.load_file("perl.rive")
 bot.sort_replies()

@@ -5,7 +5,7 @@ import codecs
 import os
 import json
 import sys
-from rivescript.parser import Parser
+from converscript.parser import Parser
 
 """Example use of the RiveScript Parser module.
 

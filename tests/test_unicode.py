@@ -4,7 +4,7 @@
 from __future__ import unicode_literals, absolute_import
 
 import re
-from rivescript.exceptions import RS_ERR_MATCH
+from converscript.exceptions import RS_ERR_MATCH
 from .config import RiveScriptTestCase
 
 class UnicodeTest(RiveScriptTestCase):

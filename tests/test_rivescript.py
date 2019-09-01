@@ -8,7 +8,7 @@ import re
 import unittest
 from collections import OrderedDict
 
-from rivescript.rivescript import RS_ERR_MATCH
+from converscript.converscript import RS_ERR_MATCH
 
 from .config import RiveScriptTestCase
 

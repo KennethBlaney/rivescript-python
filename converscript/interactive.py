@@ -13,7 +13,7 @@ import re
 from six.moves import input
 from six import text_type, PY2
 
-from rivescript import RiveScript
+from converscript import RiveScript
 
 def json_in(bot, buffer, stateful):
     # Prepare the response.
@@ -66,7 +66,7 @@ def interactive_mode():
     terminal window. There are two ways to invoke this mode::
 
         # By running the Python RiveScript module directly:
-        python rivescript eg/brain
+        python converscript eg/brain
 
         # By running the shell.py in the source distribution:
         python shell.py eg/brain

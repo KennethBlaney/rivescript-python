@@ -8,7 +8,7 @@
 from __future__ import unicode_literals
 import json
 import redis
-from rivescript.sessions import SessionManager
+from converscript.sessions import SessionManager
 
 __author__    = 'Noah Petherbridge'
 __copyright__ = 'Copyright 2017, Noah Petherbridge'
@@ -19,7 +19,7 @@ __version__   = '0.1.0'
 class RedisSessionManager(SessionManager):
     """A Redis powered session manager for RiveScript."""
 
-    def __init__(self, prefix="rivescript/", *args, **kwargs):
+    def __init__(self, prefix="converscript/", *args, **kwargs):
         """Initialize the Redis session driver.
 
         Apart from the ``prefix`` parameter, all other options are passed
@@ -29,8 +29,8 @@ class RedisSessionManager(SessionManager):
 
         Args:
             prefix (string): the key to prefix all the Redis keys with. The
-                default is ``rivescript/``, so that for a username of ``alice``
-                the key would be ``rivescript/alice``.
+                default is ``converscript/``, so that for a username of ``alice``
+                the key would be ``converscript/alice``.
             host (string): Hostname of the Redis server.
             port (int): Port number of the Redis server.
             db (int): Database number in Redis.

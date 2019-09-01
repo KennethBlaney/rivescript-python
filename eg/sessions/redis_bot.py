@@ -4,7 +4,7 @@ from __future__ import unicode_literals, print_function, absolute_import
 from six.moves import input
 import sys
 
-# Manipulate sys.path to be able to import rivescript from this local git
+# Manipulate sys.path to be able to import converscript from this local git
 # repository.
 import os
 sys.path.append(os.path.join(
@@ -17,7 +17,7 @@ sys.path.append(os.path.join(
     "contrib", "redis",
 ))
 
-from rivescript import RiveScript
+from converscript import RiveScript
 from rivescript_redis import RedisSessionManager
 
 bot = RiveScript(

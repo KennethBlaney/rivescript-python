@@ -22,8 +22,8 @@ class SessionManager(object):
     create your own session manager that extends this class and implements its
     functions.
 
-    See the ``eg/sessions`` example from the source of rivescript-python at
-    https://github.com/aichaos/rivescript-python for an example.
+    See the ``eg/sessions`` example from the source of converscript-python at
+    https://github.com/aichaos/converscript-python for an example.
 
     The constructor takes no required parameters. You can feel free to define
     ``__init__()`` however you need to.

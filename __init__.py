@@ -1,1 +1,1 @@
-from rivescript import RiveScript
+from converscript import RiveScript

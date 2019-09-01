@@ -1,18 +1,18 @@
 # rivescript-python setup.py
 
-import rivescript
+import converscript
 from setuptools import setup
 
 setup(
-    name             = 'rivescript',
-    version          = rivescript.__version__,
+    name             = 'converscript',
+    version          = converscript.__version__,
     description      = 'A Chatterbot Scripting Language',
     long_description = 'A scripting language to make it easy to write responses for a chatterbot.',
     author           = 'Noah Petherbridge',
     author_email     = 'root@kirsle.net',
-    url              = 'https://github.com/aichaos/rivescript-python',
+    url              = 'https://github.com/aichaos/converscript-python',
     license          = 'MIT',
-    packages         = ['rivescript'],
+    packages         = ['converscript'],
     keywords         = ['bot', 'chatbot', 'chatterbot', 'ai', 'aiml',
                         'chatscript', 'buddyscript'],
     classifiers      = [

@@ -3,7 +3,7 @@
 
 from __future__ import unicode_literals, absolute_import
 
-from rivescript.sessions import NullSessionStorage
+from converscript.sessions import NullSessionStorage
 from .config import RiveScriptTestCase
 
 class SessionTests(RiveScriptTestCase):

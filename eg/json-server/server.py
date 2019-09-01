@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Manipulate sys.path to be able to import rivescript from this local git
+# Manipulate sys.path to be able to import converscript from this local git
 # repository.
 import os
 import sys
@@ -8,7 +8,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 
 from flask import Flask, request, Response, jsonify
 import json
-from rivescript import RiveScript
+from converscript import RiveScript
 
 # Set up the RiveScript bot. This loads the replies from `/eg/brain` of the
 # git repository.

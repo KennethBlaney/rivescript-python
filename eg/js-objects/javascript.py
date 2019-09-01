@@ -2,7 +2,7 @@
 
 # Example for how to set a JavaScript object handler.
 
-import rivescript
+import converscript
 
 class JSObject:
     """A JavaScript handler for RiveScript."""
@@ -29,7 +29,7 @@ class JSObject:
             + "</script>"
         return source
 
-bot = rivescript.RiveScript()
+bot = converscript.RiveScript()
 bot.set_handler("javascript", JSObject())
 bot.load_file("javascript.rive")
 bot.sort_replies()

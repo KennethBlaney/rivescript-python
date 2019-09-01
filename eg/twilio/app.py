@@ -4,14 +4,14 @@
 
 See the accompanying README.md for instructions."""
 
-# Manipulate sys.path to be able to import rivescript from this git repo.
-# Otherwise you'd have to `pip install rivescript`
+# Manipulate sys.path to be able to import converscript from this git repo.
+# Otherwise you'd have to `pip install converscript`
 import os
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 
 from flask import Flask, request, redirect
-from rivescript import RiveScript
+from converscript import RiveScript
 import twilio.twiml
 
 # Set up the RiveScript bot. This loads the replies from "../brain", or,

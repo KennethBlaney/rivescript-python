@@ -32,7 +32,8 @@ _ = RS_ERR_MATCH
 _ = RS_ERR_REPLY
 _ = RS_ERR_DEEP_RECURSION
 
-class RiveScript(object):
+
+class ConverScript(object):
     """A RiveScript interpreter for Python 2 and 3.
 
     Parameters:
@@ -374,7 +375,7 @@ class RiveScript(object):
             deparsed = self.deparse()
 
         # Start at the beginning.
-        fh.write("// Written by rivescript.deparse()\n")
+        fh.write("// Written by converscript.deparse()\n")
         fh.write("! version = 2.0\n\n")
 
         # Variables of all sorts!
@@ -564,7 +565,7 @@ class RiveScript(object):
         Pass in a ``None`` value for the object to delete an existing handler (for
         example, to prevent Python code from being able to be run by default).
 
-        Look in the ``eg`` folder of the rivescript-python distribution for
+        Look in the ``eg`` folder of the converscript-python distribution for
         an example script that sets up a JavaScript language handler.
 
         :param str language: The lowercased name of the programming language.

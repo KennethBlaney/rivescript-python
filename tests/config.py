@@ -3,7 +3,7 @@
 """Utility functions for the unit tests."""
 
 import unittest
-from rivescript import RiveScript
+from converscript import RiveScript
 
 class RiveScriptTestCase(unittest.TestCase):
     """Base class for all RiveScript test cases, with helper functions."""
